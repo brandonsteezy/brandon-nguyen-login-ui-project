@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('sea.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    background: whitesmoke;
+    border: 5px gray solid;
+    padding: 30px 40px;
+}
+
+.container h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.container .input-box {
+    width: 64%;
+    height: 50px;
+    margin: 40px;
+    background: transparent;
+}
+
+.input-box input {
+    width: 120%;
+    height: 100%;
+    background: transparent;
+    border: black;
+    outline: black;
+    border: 2px solid;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+.input-box input::placeholder {
+    color: black;
+}
+
+.container .bttn {
+    width: 100%;
+    font-size: 40px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px 10px;
+}
+
+.container .register {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 55px;
+}
+
+.register p a:hover {
+    color: white;
+}
